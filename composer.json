@@ -1,0 +1,23 @@
+{
+    "name": "greys/wc-smart-coupons-tests",
+    "description": "PHPUnit testing framework for WooCommerce Smart Coupons",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jgreys",
+            "homepage": "https://github.com/jgreys"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "greys/woocommerce-phpunit-framework": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Greys\\WooCommerce\\SmartCoupons\\Tests\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
